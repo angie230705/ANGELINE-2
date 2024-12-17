@@ -1,0 +1,50 @@
+# Ejemplo de varias técnicas de programación en Python
+
+# Variables y tipos de datos
+nombre = "Juan"  # String
+edad = 30       # Entero
+altura = 1.75   # Flotante
+es_estudiante = True  # Booleano
+
+# Operadores aritméticos
+suma = 2 + 3
+resta = 5 - 2
+multiplicacion = 4 * 5
+division = 10 / 2
+
+# Condicionales
+if edad >= 18:
+    print("Eres mayor de edad.")
+else:
+    print("Eres menor de edad.")
+
+# Bucles
+for i in range(5):
+    print(i)
+
+# Funciones
+def saludar(nombre):
+    print("Hola,", nombre + "!")
+
+saludar("Ana")
+
+# Listas
+frutas = ["manzana", "banana", "pera"]
+for fruta in frutas:
+    print(fruta)
+
+# Diccionarios
+persona = {"nombre": "Pedro", "edad": 25, "ciudad": "Madrid"}
+print(persona["nombre"])
+
+# Clases y objetos
+class Perro:
+    def __init__(self, nombre, raza):
+        self.nombre = nombre
+        self.raza = raza
+
+    def ladrar(self):
+        print("Guau!")
+
+mi_perro = Perro("Lucas", "Labrador")
+mi_perro.ladrar()
