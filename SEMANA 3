@@ -1,0 +1,19 @@
+def calcular_promedio_tradicional(temperaturas):
+    """Calcula el promedio de una lista de temperaturas.
+
+    Args:
+        temperaturas: Una lista de temperaturas.
+
+    Returns:
+        El promedio de las temperaturas.
+    """
+
+    suma_temperaturas = sum(temperaturas)
+    numero_dias = len(temperaturas)
+    promedio = suma_temperaturas / numero_dias
+    return promedio
+
+# Ejemplo de uso:
+temperaturas_semana = [25, 28, 30, 27, 29, 26, 28]
+promedio = calcular_promedio_tradicional(temperaturas_semana)
+print("El promedio de temperatura semanal es:", promedio)
